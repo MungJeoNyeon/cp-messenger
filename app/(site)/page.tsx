@@ -33,7 +33,10 @@ const Auth = () => {
             text-gray-900
           "
           >
-            Sign in to your account
+            안녕하세요 절대 이상한 거 아닙니다...<br/>
+            혹시나 구글로그인이 불편하시면 맨 아래에 있는 create an account를 누른다음 대충 만들어주세요!<br/>
+            회원가입은 위 웹사이트의 oauth 보안 기능이 잘 작동하는지 확인하기 위함입니다!<br/>
+            불편하시더라도 수고해주시면 감사합니다! 좋은 하루 보내세요!
         </h2>
       </div>
       <AuthForm />      

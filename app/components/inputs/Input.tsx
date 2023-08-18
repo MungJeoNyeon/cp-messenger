@@ -1,10 +1,10 @@
 'use client';
 
 import clsx from "clsx";
-import { 
-  FieldErrors, 
-  FieldValues, 
-  UseFormRegister 
+import {
+  FieldErrors,
+  FieldValues,
+  UseFormRegister
 } from "react-hook-form";
 
 interface InputProps {
@@ -26,10 +26,10 @@ const Input: React.FC<InputProps> = ({
   type = 'text',
   disabled,
 }) => {
-  return ( 
+  return (
     <div>
-      <label 
-        htmlFor={id} 
+      <label
+        htmlFor={id}
         className="
           block 
           text-sm 
@@ -71,7 +71,7 @@ const Input: React.FC<InputProps> = ({
         />
       </div>
     </div>
-   );
+  );
 }
- 
+
 export default Input;

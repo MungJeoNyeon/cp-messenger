@@ -1,9 +1,9 @@
 import LoadingModal from "../components/modals/LoadingModal";
 
 const Loading = () => {
-  return ( 
+  return (
     <LoadingModal />
   );
 }
- 
+
 export default Loading;
