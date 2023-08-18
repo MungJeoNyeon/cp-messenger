@@ -9,9 +9,9 @@ interface ImageModalProps {
   src?: string | null;
 }
 
-const ImageModal: React.FC<ImageModalProps> = ({ 
-  isOpen, 
-  onClose, 
+const ImageModal: React.FC<ImageModalProps> = ({
+  isOpen,
+  onClose,
   src
 }) => {
   if (!src) {
@@ -21,10 +21,10 @@ const ImageModal: React.FC<ImageModalProps> = ({
   return (
     <Modal isOpen={isOpen} onClose={onClose}>
       <div className="w-80 h-80">
-        <Image 
-          className="object-cover" 
-          fill 
-          alt="Image" 
+        <Image
+          className="object-cover"
+          fill
+          alt="Image"
           src={src}
         />
       </div>
